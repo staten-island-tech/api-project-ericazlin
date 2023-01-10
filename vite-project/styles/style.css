@@ -1,21 +1,32 @@
 html,
 body {
-    margin: 0;
+    margin-left: 1rem;
     padding: 0;
     box-sizing: border-box;
     font-size: 1.7rem;
     font-family: 'East Sea Dokdo', cursive;
-    background-color: rgb(81, 73, 94);
-    color: lavender;
+    background-color:rgb(52, 48, 65);
+    color: rgb(161, 155, 180);
 }
 
 .btn {
-    margin-top: 35px;
+    margin-top: 0.2rem;
     height: 50px;
-    font-size: 1rem;
+    font-size: 0.9rem;
+    color: rgb(31, 28, 40);
+    background-color: rgb(112, 107, 130);
     padding: 1px 3px;
     width: 10rem;
     height: 2rem;
-    margin-left: 70px;
-    border-radius: 10px;
+    margin-left: 0.7rem;
+    border-radius: 0.5rem;
+    font-family: 'Source Code Pro', monospace; 
+}
+
+.btn:hover {
+    border: 0.14rem solid rgb(217, 212, 236);
+    background-color: rgb(31, 28, 40);
+    color: rgb(217, 212, 236);
+    box-shadow: 1rem ;
+    transform: scale(110%);
 }
