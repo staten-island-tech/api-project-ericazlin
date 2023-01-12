@@ -10,6 +10,6 @@ async function booty(URL) {
       console.log(error);
   }
 }
-
+ m                        
 document.querySelector(".btn").addEventListener("click", booty(URL))
 
