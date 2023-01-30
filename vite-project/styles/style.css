@@ -9,30 +9,74 @@ body {
     color: rgb(161, 155, 180);
 }
 
+h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
 .title {
-    font-size: 10rem;
+    font-size: 9rem;
     text-align: center;
     margin: 2rem;
 }
 
 .btn {
-    font-size: 2rem;
+    font-size: 3rem;
     color: rgb(31, 28, 40);
     background-color: rgb(112, 107, 130);
     padding: 1rem;
-    width: 20vw;
-    height: 7vh;
-    border-radius: 0.5rem;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 1rem;
+    font-family: 'Source Code Pro', monospace; 
+    margin: auto;
+}
+
+#submit {
+    font-size: 2rem;
+    color: rgb(31, 28, 40);
+    background-color: rgb(112, 107, 130);
+    width: fit-content;
+    height: fit-content;
+    border-radius: 1rem;
     font-family: 'Source Code Pro', monospace; 
 }
 
-.btn:hover {
+#btnHolder {
+    display: flex;
+    align-items: center;
+}
+
+#search, 
+#playerSearch{
+    margin: 0 2rem;
+}
+#searchHolder {
+    display: flex;
+    align-items: center;
+}
+#searchHolderAndButton {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#search {
+    text-align: center;
+}
+
+.btn:hover,
+#submit:hover {
     border: 0.14rem solid rgb(217, 212, 236);
     background-color: rgb(31, 28, 40);
     color: rgb(217, 212, 236);
     box-shadow: 1rem ;
+    transition-duration: 150ms;
     transform: scale(110%);
 }
+
+
 
 .fltr {
     font-size: 0.9rem;
@@ -56,6 +100,14 @@ body {
 }
 
 .fact {
-    height: 20vh;
-    overflow:auto;
+    display: flex;
+    min-height: 20vh;
+    text-align: center;
+    padding: 4rem 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#playerText {
+    padding-right: 1rem;
 }

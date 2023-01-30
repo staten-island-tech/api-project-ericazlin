@@ -11,19 +11,24 @@
   </head>
   <body>
     
-    <h1 class="title">cat facts for all my bored besties out there</h1>
-    <button class="btn" id="factBtn">click 4 cool fact</button>
+    <h1 class="title">who's your favorite chess GM?</h1>
+    <div id="btnHolder">
+      <button class="btn" id="factBtn">click 4 random GM</button>
+    </div>
 
-<div class="fact"></div>
-
-    <h2 class="wantfilter">want a filter? yes you do! click one of them! now. </h2>
-    <button class="fltr">one</button>
-    <button class="fltr">dos</button>
-    <button class="fltr">tre</button>
-    <button class="fltr">sa</button>
-    <button class="fltr">wu</button>
+<div class="fact">
+</div>
+  <div id="searchHolderAndButton">
+    <div id="searchHolder">
+      <h1 class="wantFilter" id="search">search info about your favorite GM!</h1>
+      <input type="text" name="searchText" id="playerSearch">
+    </div>
+     <button id="submit">Submit</button>
+  </div>
 
     <script type="module" src="./js/main.js"></script>
+
+
 
   </body>
 </html>
