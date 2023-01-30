@@ -113,7 +113,7 @@ async function getInfo() {
       `
     } else if (dataInfo.title != "GM") {
       DOMSelectors.fact.innerHTML = `
-      <h1>Sorry! This user is not a GM!</h1>
+      <h1>Sorry! This user is not a GM! Maybe check your spelling.</h1>
       `
     }
       else if (dataGM.players.some(player => player === friendlySearchTerm)) {
