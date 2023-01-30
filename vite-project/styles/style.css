@@ -53,7 +53,7 @@ label {
     margin: 0 2rem;
 }
 #searchHolder {
-    display: grid;
+    display: flex;
     align-items: center;
 }
 #searchHolderAndButton {
